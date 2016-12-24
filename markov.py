@@ -44,5 +44,5 @@ def generateText(d,n):
     counter+=1
   print ''.join(gen)
 
-#sample 
-generateText(createDictionary('shakespeare.txt'),5000)
+#sample function call, generate 5000 words based on the provided oscarwilde.txt (the preface to Picture of Dorian Gray)
+generateText(createDictionary('oscarwilde.txt'),5000)
